@@ -27,29 +27,61 @@ Transaction category prediction plays a vital role in personal finance managemen
 
 
 ## Table of Content
-  * [About Loginext]
+  * [About Loginext]()
   * [Problem Statement](#problem-statement)
+  * [Objective]
   * [Dataset](#dataset)
-  * 
-  * [Installation](#installation)
-  * [Project Structure](#project-structure)
-  * [Tools Used](#tools-used)
-  * [Performed Model Result](#performed-model-Result)
+  * [API]
+  * [About the Project Requirements]()
+  * [Project Structure]()
   * [Project Summary](#project-summary)
   * [Conclusion](#conclusion)
 
+## About Loginext
+LogiNext is a global technology firm that offers a SaaS based Delivery Automation Platform. The software helps brands across Food & Beverage, Courier, Express and Parcel, eCommerce & Retail and Transportation
+(3PLs, 4PLs, etc.) to digitize, optimize and automate deliveries across the supply chain.
+
+Growing at an average rate of 120% YoY, LogiNext has 200+ enterprise clients in 50+ countries with headquarters in New Jersey, USA and regional offices in Mumbai, Jakarta, Delhi and Dubai. We’re backed with $49.5 million across three rounds of private equity investments by Tiger Global Management, Steadview Capital and Alibaba Group of companies.
+
+The majority of our workforce is in Mumbai and we’re a bunch of people interested in technology and working at the forefront of innovation in the logistics automation industry. With smaller teams distributed across the globe, the entire team gets together during our annual workation. The vision of building a global enterprise company and going IPO is what drives us to achieve more, every day!
 
 ## Problem Statement
-* We are given a data about transactions. Our goal is to categorise those transaction to their Category and SubCategories
-* Total rows provided in the dataset are 53000 and 8 columns
-* In the fast-paced world of banking and finance, transaction categorization has emerged as a crucial tool for banks to efficiently manage financial data and empower their customers. By automatically classifying transactions into specific categories, such as groceries, utilities, entertainment, or travel, banks can streamline financial processes, provide personalized insights, and enhance overall customer experience. This blog explores the significance of transaction categorization for banks and the benefits it offers to both the institutions and their customers.
-* A study conducted by McKinsey & Company found that transaction categorization plays a crucial role in improving customer experience by providing personalized financial insights and recommendations. This leads to higher customer satisfaction and increased loyalty.
+
+Problem Statement
+In correct addresses is one of the critical challenges for the delivery of the orders by eCommerce and Courier companies. In this case study we are exploring how do we convert from unreliable address information into a reliable base.
+
+Some ecommerce portals allow addresses to be input in one single line while some portals have multiple address lines for different address components. The system may receive input address in various formats as listed below.
+Example1:
+Address: “A 406, Siddhivinayak Apartment, S. V. Road, Opp. Police station, Malad (west), Mumbai 400064”
+
+Example2:
+Address Line1: “C-302, Oberoi Splendour apartment”
+Address Line2: “Jogeshwari Vikhroli Link Road, Andheri (E), Mumbai 400072”
+
+Example3:
+House: “1023, Rajesh Tower”,
+Address: “Mahavir Nagar, Borivali West”,
+Landmark: “near J B Kot School”,
+City: “Mumbai”,
+State: “Maharashtra”
+Pincode: 400092
+
+All inputs are in the JSON format as key-value pairs.
+The goal of the system is to translate given inputs in fields including
+- House
+- Locality
+- Landmark
+- Area
+- City
+- State
+- Country
+- Pincode/Zipcode
 
 
 
 
 ## Objective
-The classification goal is to predict the Category and SubCategory of the transaction based on given features
+The goal is to structure the address in right format, correct the spellings, or restore the missing information so that it will make sure that delivery should happen at right place.
 
 
 ## Dataset
