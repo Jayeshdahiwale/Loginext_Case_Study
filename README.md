@@ -11,17 +11,17 @@ Some common issues with address input include:
 
    - Missing or Incorrect Postal Codes: Postal codes are essential for accurate routing and delivery. Missing or incorrect postal codes can lead to deliveries being sent to the wrong location or getting delayed.
 
-    - Incomplete Addresses: Customers may forget to include important details in their addresses, such as apartment numbers, building names, or floor numbers. Incomplete addresses can make it challenging for delivery personnel to locate the correct destination.
+- Incomplete Addresses: Customers may forget to include important details in their addresses, such as apartment numbers, building names, or floor numbers. Incomplete addresses can make it challenging for delivery personnel to locate the correct destination.
 
    -  Formatting Issues: Address formats may vary across regions or countries. Customers may not follow the proper formatting guidelines, such as including the street name, locality, city, and postal code in the correct order. This can lead to address misinterpretation and delivery errors.
 
 Address structuring aims to standardize and validate addresses by following specific guidelines and rules. By implementing address structuring techniques, businesses can:
 
-    Validate and verify addresses to ensure they are accurate and complete.
-    Standardize address formats to improve delivery efficiency.
-    Correct spelling mistakes and inconsistencies.
-    Append missing address components or fill in incomplete information.
-    Geocode addresses to obtain latitude and longitude coordinates for precise location identification.
+Validate and verify addresses to ensure they are accurate and complete.
+Standardize address formats to improve delivery efficiency.
+Correct spelling mistakes and inconsistencies.
+Append missing address components or fill in incomplete information.
+Geocode addresses to obtain latitude and longitude coordinates for precise location identification.
 
 Transaction category prediction plays a vital role in personal finance management. By accurately categorizing transactions, individuals can gain insights into their spending patterns, identify areas where they are overspending, and make informed decisions about budgeting and saving. It allows users to track their expenses across different categories and understand their financial habits.
 
