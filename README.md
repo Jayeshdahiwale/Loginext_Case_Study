@@ -29,9 +29,9 @@ Transaction category prediction plays a vital role in personal finance managemen
 ## Table of Content
   * [About Loginext]()
   * [Problem Statement](#problem-statement)
-  * [Objective]
+  * [Objective]()
   * [Dataset](#dataset)
-  * [API]
+  * [API]()
   * [About the Project Requirements]()
   * [Project Structure]()
   * [Project Summary](#project-summary)
